@@ -1,0 +1,165 @@
+{
+    "basics": {
+        "name": "Nomaan Ahgharian",
+        "label": "Team Lead | Senior Software Engineer",
+        "image": "https://avatars.githubusercontent.com/u/3068499?v=4",
+        "email": "get@nomaan.me",
+        "phone": "(716) 935-9072",
+        "url": "https://nomaan.me",
+        "location": {
+            "countryCode": "US",
+            "region": "Chicago"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "UXnomaan",
+                "url": "https://twitter.com/UXnomaan"
+            },
+            {
+                "network": "GitHub",
+                "username": "UXnomaan",
+                "url": "https://github.com/UXnomaan"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "nomaan-ahgharian",
+                "url": "https://www.linkedin.com/in/nomaan-ahgharian/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "FrontLine Education",
+            "position": "Team Lead/Senior Software Engineer 2",
+            "website": "https://www.frontlineeducation.com/",
+            "startDate": "2021-01-01",
+            "summary": "",
+            "highlights": [
+                "Leading a Green field project with React and Springboot stack",
+                "Using Cypress for UI tests and Newman for API tests that run on GitHub Actions before each merge",
+                "Created an oclif CLI to run jar files to automate EC2 server bootstrapping and development environments"
+            ]
+        },
+        {
+            "name": "Forecast5 Analytics (Acquired by FrontLine Education)",
+            "position": "Senior Software Engineer",
+            "website": "https://www.forecast5analytics.com/",
+            "startDate": "2019-05-27",
+            "endDate": "2020-12-31",
+            "summary": "",
+            "highlights": [
+                "Designed and implemented React apps using Context to migrate existing products from Ext JS",
+                "Architected and executed a dashboard authoring tool with Drag-n-Drop capabilities to show different analytics",
+                "Migrated existing codebase from SVN to GitHub utilizing GitHub API and bash scripts (69 repos)"
+            ]
+        },
+        {
+            "name": "Liberty Mutual Insurance",
+            "position": "Senior Software Developer",
+            "website": "https://www.libertymutual.com/",
+            "startDate": "2017-02-20",
+            "endDate": "2019-05-26",
+            "highlights": [
+                "Implemented integration tests (end-to-end) using Cypress",
+                "Initiated and lead Safeco Design System to improve usability and accessibility across different solutions",
+                "Migrated an agent facing app from Angularjs to React with express backend in BDD fashion",
+                "Implemented a customer facing self-serving portal in React with node (express) backend"
+            ]
+        },
+        {
+            "name": "The Odyssey Online",
+            "position": "UX Engineer",
+            "website": "https://www.theodysseyonline.com/",
+            "startDate": "2016-07-25",
+            "endDate": "2017-02-01",
+            "summary": "",
+            "highlights": [
+                "Conducted interviews (contextual inquiry) with editorial team to understand their work flow to create a new authoring experience",
+                "Utilized Sketch and Invision for prototyping",
+                "Implemented Minimum Viable Products (MVP) for the new authoring experience using React"
+            ]
+        },
+        {
+            "name": "Eli Lilly and Company",
+            "position": "Academic UX Researcher (contractor)",
+            "website": "https://www.lilly.com/",
+            "startDate": "2015-11-01",
+            "endDate": "2016-05-31",
+            "summary": "",
+            "highlights": [
+                "Utilized KNIME for data mining from different databases and Normalized aggregated data",
+                "Visualized the findings with Tableau for easier decision making for IT Vice President"
+            ]
+        },
+        {
+            "name": "Liberty Mutual Insurance",
+            "position": "Software Developer",
+            "website": "https://www.libertymutual.com/",
+            "startDate": "2014-05-23",
+            "endDate": "2015-07-24",
+            "highlights": [
+                "Designed and developed UI library pattern to keep different quoting apps consistent",
+                "increased development team productivity by introducing a Gulp workflow to run a server to replace IBM Rational Application Developer internal server and recompile Sass files on save"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indiana University–Purdue University Indianapolis",
+            "url": "https://soic.iupui.edu",
+            "area": "Human Computer Interaction ",
+            "studyType": "Master",
+            "startDate": "2015-08-01",
+            "endDate": "2017-07-17",
+            "score": "3.97"
+        },
+        {
+            "institution": "Rochester Institute of Technology",
+            "url": "https://www.rit.edu/computing/",
+            "area": "Information Technology",
+            "studyType": "Bachelor",
+            "startDate": "2011-03-01",
+            "endDate": "2013-05-01",
+            "score": "3.60"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Front end",
+            "keywords": [
+                "React Hooks",
+                "React Table",
+                "React Query",
+                "React Context",
+                "React DnD"
+            ]
+        },
+        {
+            "name": "Back end",
+            "keywords": [
+                "Node",
+                "Express",
+                "Serverless"
+            ]
+        },
+        {
+            "name": "Testing",
+            "keywords": [
+                "Cypress",
+                "Jest",
+                "Chai"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Persian",
+            "fluency": "Native"
+        }
+    ]
+}

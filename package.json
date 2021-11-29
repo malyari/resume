@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "resume export resume.pdf --theme macchiato",
+    "validate": "node validate.js",
+    "dev": "resume serve --resume resume.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-slick": "^0.1.16",
+    "resume-cli": "^3.0.5",
+    "resume-schema": "^1.0.0"
+  }
+}
