@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run export:html && npm run export:pdf",
     "export:html": "mkdir dist && resume export -r ./src/resume.json --theme macchiato-ibic ./dist/index.html",
     "export:pdf": "mkdir ./dist/pdf && puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print ./dist/index.html pdf/ahgharian-nomaan.pdf",
     "test": "react-scripts test",
