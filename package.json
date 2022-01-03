@@ -1,19 +1,44 @@
 {
   "name": "resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "export": "resume export resume.pdf --theme macchiato",
-    "validate": "node validate.js",
-    "dev": "resume serve --resume resume.json"
-  },
-  "author": "",
-  "license": "ISC",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jsonresume-theme-macchiato": "^1.1.0",
-    "jsonresume-theme-slick": "^0.1.16",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "jsonresume-theme-macchiato-ibic": "^1.0.5",
+    "puppeteer-cli": "^1.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
     "resume-cli": "^3.0.5",
-    "resume-schema": "^1.0.0"
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "export:html": "mkdir dist && resume export -r ./src/resume.json --theme macchiato-ibic ./dist/index.html",
+    "export:pdf": "mkdir ./dist/pdf && puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print ./dist/index.html pdf/ahgharian-nomaan.pdf",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
