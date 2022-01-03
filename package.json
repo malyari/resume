@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "npm run export:html && npm run export:pdf",
     "export:html": "mkdir dist && resume export -r ./src/resume.json --theme macchiato-ibic ./dist/index.html",
-    "export:pdf": "mkdir ./dist/pdf && puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print ./dist/index.html ./dist/pdf/ahgharian-nomaan-resume.pdf",
+    "export:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print ./dist/index.html ./dist/ahgharian-nomaan-resume.pdf",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
