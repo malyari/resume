@@ -75,7 +75,7 @@
             "endDate": "2017-02-01",
             "summary": "",
             "highlights": [
-                "Conducted interviews (contextual inquiry) with editorial team to understand their work flow to create a new authoring experience",
+                "Conducted interviews (contextual inquiry) with the editorial team to understand their workflow to create a new authoring experience",
                 "Utilized Sketch and Invision for prototyping",
                 "Implemented Minimum Viable Products (MVP) for the new authoring experience using React"
             ]
@@ -100,7 +100,7 @@
             "endDate": "2015-07-24",
             "highlights": [
                 "Designed and developed UI library pattern to keep different quoting apps consistent",
-                "increased development team productivity by introducing a Gulp workflow to run a server to replace IBM Rational Application Developer internal server and recompile Sass files on save"
+                "Increased development team productivity by introducing a Gulp workflow to run a server to replace IBM Rational Application Developer internal server and recompile Sass files on save"
             ]
         }
     ],
