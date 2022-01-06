@@ -36,7 +36,7 @@
             "startDate": "2021-01-01",
             "summary": "",
             "highlights": [
-                "Leading a Green field project with React and Springboot stack",
+                "Leading a greenfield project with React and Springboot stack",
                 "Using Cypress for UI tests and Newman for API tests that run on GitHub Actions before each merge",
                 "Created an oclif CLI to run jar files to automate EC2 server bootstrapping and development environments"
             ]
